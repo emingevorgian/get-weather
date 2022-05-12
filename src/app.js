@@ -25,6 +25,7 @@ app.get("", (req, res) => {
     title: "Weather",
     name: "Emin",
     text: "Use this site to get your weather.",
+    date: 2022,
   });
 });
 
@@ -33,6 +34,7 @@ app.get("/about", (req, res) => {
     title: "About",
     name: "Emin",
     about: "Providing some information.",
+    date: 2022,
   });
 });
 
@@ -41,6 +43,7 @@ app.get("/help", (req, res) => {
     helpText: "Some helpful information.",
     title: "Help",
     name: "Emin",
+    date: 2022,
   });
 });
 
@@ -94,6 +97,7 @@ app.get("/help/*", (req, res) => {
     title: "Error",
     name: "Emin",
     errorMessage: "Could not find help article",
+    date: 2022,
   });
 });
 
@@ -102,6 +106,7 @@ app.get("*", (req, res) => {
     title: "Error 404",
     name: "Emin",
     errorMessage: "Error message",
+    date: 2022,
   });
 });
 
