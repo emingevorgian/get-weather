@@ -1,3 +1,5 @@
+// testing
+
 const weatherForm = document.querySelector("form");
 const search = document.getElementById("search");
 const message_1 = document.getElementById("message_1");
